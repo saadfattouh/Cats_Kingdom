@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/market"
+        android:icon="@drawable/ic_cart"
+        android:title="@string/market" />
+
+    <item
+        android:id="@+id/clinics"
+        android:icon="@drawable/ic_health"
+        android:title="@string/clinics" />
+
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/library"
+        android:icon="@drawable/ic_library"
+        android:title="@string/library" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/profile" />
+
+</menu>

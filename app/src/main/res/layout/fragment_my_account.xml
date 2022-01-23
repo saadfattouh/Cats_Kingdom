@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MyAccountFragment"
+    android:gravity="center"
+    android:background="@color/bg">
+
+    <Button
+        android:id="@+id/account_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_bg_side_rounded"
+        android:text="@string/my_account_details"/>
+
+    <Button
+        android:id="@+id/my_cats_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:text="@string/my_cats"
+        android:background="@drawable/button_bg_side_rounded"
+        android:layout_below="@id/account_btn"/>
+
+    <Button
+        android:id="@+id/suggestion_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:text="@string/make_suggestion"
+        android:layout_below="@id/my_cats_btn"
+        android:background="@drawable/button_bg_side_rounded"/>
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg_side_rounded"
+        android:text="@string/logout"
+        android:layout_below="@id/suggestion_btn"/>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/holo_blue_dark</color>
+    <color name="colorPrimaryDark">@android:color/holo_blue_dark</color>
+    <color name="colorAccent">@android:color/holo_blue_bright</color>
+
+    <color name="button_back_ground_color">#e6e6e6</color>
+
+    <color name="white">#fff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="bottom_nav_item_checked">@android:color/darker_gray</color>
+    <color name="bottom_nav_item_UnChecked">@color/white</color>
+
+    <color name="button_shop_for_cats">#00B0FF</color>
+    <color name="button_shop_for_accessories">#1DE9B6</color>
+
+    <color name="bg">#C1F2FF</color>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/bg"
+    tools:context=".fragment.MarketFragment">
+
+   <TextView
+       android:id="@+id/shop_for_cats_btn"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_margin="16dp"
+       android:text="@string/cats"
+       android:textColor="@color/white"
+       android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+       android:gravity="center"
+       android:background="@color/button_shop_for_cats"
+       />
+
+
+    <TextView
+        android:id="@+id/shop_for_accessories_btn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        android:layout_below="@id/shop_for_cats_btn"
+        android:text="@string/accessories"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+        android:gravity="center"
+        android:background="@color/button_shop_for_accessories"/>
+</RelativeLayout>

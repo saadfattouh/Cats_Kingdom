@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Cat Kingdom</string>
+    <string name="sign_up">SignUp</string>
+    <string name="login">Login</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="birth_date">BirthDate</string>
+    <string name="market">Market</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="library">Library</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clinics">Clinics</string>
+    <string name="register_as_guest">Register as guest</string>
+    <string name="add_cat_for_sale">Add A Cat For Sale</string>
+    <string name="cat_type">Type</string>
+    <string name="color">Color</string>
+    <string name="age">Age</string>
+    <string name="extra_accessories">Extra Accessories</string>
+    <string name="price">Price</string>
+    <string name="add_image">Add Image</string>
+    <string name="save">Save</string>
+    <string name="search_cats">Search Cats</string>
+    <string name="brows_for_cats">Brows For Cats</string>
+    <string name="browse_for_accessories">Brows For accessories</string>
+    <string name="search_accessoriess">Search Accessories</string>
+    <string name="search_clinics">Search Clinics</string>
+    <string name="search_books">Search Books</string>
+    <string name="tips_for_today">Tips For Today</string>
+    <string name="accessories">Accessories</string>
+    <string name="cats">Cats</string>
+    <string name="my_account_details">My Account Details</string>
+    <string name="my_cats">My Cats</string>
+    <string name="make_suggestion">Make Suggestion To Improve the App</string>
+    <string name="logout">Logout</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_mobile">Mobile</string>
+    <string name="profile_personal">Email</string>
+</resources>
